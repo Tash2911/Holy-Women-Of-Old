@@ -1,0 +1,13 @@
+body {
+    background-color: #ffc93c;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 40px;
+}
+
+p {
+    box-sizing: border-box;
+}
