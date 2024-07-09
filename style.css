@@ -8,6 +8,29 @@ p {
     margin: 40px;
 }
 
-p {
-    box-sizing: border-box;
+.image {
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.text:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
