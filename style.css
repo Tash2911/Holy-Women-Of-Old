@@ -2,6 +2,39 @@ body {
     background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
 }
 
+nav {
+    padding: 20px;
+    background-color: #ff9a3c;
+    font-family: "dancing script",
+        cursive;
+    font-size: 20px;
+}
+
+.profile-pic {
+    border-radius: 20px;
+}
+
+nav ul {
+    margin: 35px;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
 h1 {
     margin: 20px;
     text-align: center;
@@ -89,4 +122,12 @@ h3 {
 
 .image:hover .overlay p {
     transform: translateY(0);
+}
+
+footer {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
