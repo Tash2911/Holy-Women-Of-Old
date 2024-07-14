@@ -45,6 +45,21 @@ nav a:hover {
     color: #fff;
 }
 
+button {
+    display: block;
+    justify-content: center;
+    margin: 25px auto;
+    background-color: #ff9a3c;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    cursor: hand;
+    color: #fff;
+}
+
 h1 {
     margin: 20px;
     text-align: center;
