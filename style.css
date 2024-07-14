@@ -3,9 +3,13 @@
 }
 
 .about-image {
-    margin: 300px 80px 0px 0px;
+    margin: 200px 80px 0px 0px;
     border-radius: 20px;
 
+}
+
+.contact a {
+    text-decoration: none;
 }
 
 nav {
@@ -112,7 +116,7 @@ h3 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 100%;
+
     background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
 }
 
