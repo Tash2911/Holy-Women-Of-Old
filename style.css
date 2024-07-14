@@ -72,7 +72,8 @@ h2 {
     }
 }
 
-.intro {
+.intro,
+.intro-2 {
     font-family: "dancing script",
         cursive;
     font-size: 20px;
@@ -171,16 +172,16 @@ footer .social-links a:hover {
     }
 
     .image {
-        max-width: 150px;
-        max-height: 200px;
+        margin: 0px 0px 10px 5px;
     }
 
-    .overlay {
-        max-width: 130px;
-        font-size: 10px;
+    .overlay p {
+        font-size: 15px;
     }
 
-    h3 {
+
+    h3,
+    .contact {
         font-size: 15px;
     }
 
@@ -189,7 +190,8 @@ footer .social-links a:hover {
         font-size: 30px;
     }
 
-    .intro {
+    .intro,
+    .intro-2 {
         font-size: 15px;
 
     }
@@ -201,5 +203,31 @@ footer .social-links a:hover {
 
     .profile-pic {
         display: none;
+    }
+
+    .about-image {
+        width: 250px;
+        margin: 0 50px 30px;
+
+    }
+
+
+
+    h4 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links a {
+        font-size: 20px;
+        margin: 10px 35px;
+        padding: 7px 10px;
+
+    }
+
+    footer {
+        margin: 10px;
+
     }
 }
