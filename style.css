@@ -1,5 +1,11 @@
-body {
+.body {
     background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+}
+
+.about-image {
+    margin: 350px 80px 0px 0px;
+    border-radius: 20px;
+
 }
 
 nav {
@@ -31,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    cursor: pointer;
+    cursor: hand;
     color: #fff;
 }
 
@@ -75,6 +81,13 @@ h2 {
     background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
     margin: 20px;
     border-radius: 30px 60px;
+}
+
+h4 {
+    margin: 80px 80px 0px;
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 h3 {
