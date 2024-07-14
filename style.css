@@ -3,7 +3,7 @@
 }
 
 .about-image {
-    margin: 350px 80px 0px 0px;
+    margin: 300px 80px 0px 0px;
     border-radius: 20px;
 
 }
@@ -138,9 +138,68 @@ h3 {
 }
 
 footer {
-    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 20px 30px;
+    padding: 12px 18px;
+    font-size: 40px;
+    color: #ff9a3c;
+    border-radius: 50%;
+    background-color: #393e46;
+}
+
+footer .social-links a:hover {
+    color: #aaa;
 }
 
 .contact {
     text-align: center;
+    margin: 30px;
+    font-family: "dancing script",
+        cursive;
+}
+
+@media (max-width: 900px) {
+
+
+    .intro {
+        margin: 30px;
+    }
+
+    .image {
+        max-width: 150px;
+        max-height: 200px;
+    }
+
+    .overlay {
+        max-width: 130px;
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h1,
+    h2 {
+        font-size: 30px;
+    }
+
+    .intro {
+        font-size: 15px;
+
+    }
+
+    nav {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .profile-pic {
+        display: none;
+    }
 }
