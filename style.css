@@ -22,6 +22,7 @@ nav {
 
 .profile-pic {
     border-radius: 20px;
+    box-shadow: 0 9px 15px #ff9a3c;
 }
 
 nav ul {
@@ -48,11 +49,11 @@ nav a:hover {
 button {
     display: block;
     justify-content: center;
-    margin: 25px auto;
+    margin: 20px auto;
     background-color: #ff9a3c;
     border-radius: 20px;
-    font-size: 30px;
-    padding: 10px 20px;
+    font-size: 25px;
+    padding: 8px 15px;
 }
 
 button:hover {
@@ -98,6 +99,7 @@ h2 {
     font-size: 20px;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 0 9px 15px #ff9a3c;
     background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
     margin: 20px;
     border-radius: 30px 60px;
@@ -128,7 +130,7 @@ h3 {
     position: relative;
     overflow: hidden;
     margin: 30px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 9px 15px #ff9a3c;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -159,14 +161,14 @@ h3 {
 
 footer {
     margin: 30px;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
 .social-links a {
     margin: 20px 30px;
     padding: 12px 18px;
-    font-size: 40px;
+    font-size: 35px;
     color: #ff9a3c;
     border-radius: 50%;
     background-color: #393e46;
@@ -176,7 +178,14 @@ footer .social-links a:hover {
     color: #aaa;
 }
 
-.contact {
+.netlify a {
+    padding: 12px 18px;
+    font-size: 18px;
+    color: #ff9a3c;
+    text-decoration: none;
+}
+
+.netlify {
     text-align: center;
     margin: 30px;
     font-family: "dancing script",
@@ -239,7 +248,7 @@ footer .social-links a:hover {
     }
 
     .social-links a {
-        font-size: 20px;
+        font-size: 10px;
         margin: 10px 35px;
         padding: 7px 10px;
 
@@ -248,5 +257,9 @@ footer .social-links a:hover {
     footer {
         margin: 10px;
 
+    }
+
+    .netlify {
+        font-size: 15px;
     }
 }
