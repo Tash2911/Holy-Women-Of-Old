@@ -3,7 +3,7 @@
 }
 
 .about-image {
-    margin: 200px 80px 0px 0px;
+    margin: 280px 80px 0px 0px;
     border-radius: 20px;
 
 }
@@ -54,6 +54,8 @@ button {
     border-radius: 20px;
     font-size: 25px;
     padding: 8px 15px;
+    font-family: 'Tangerine',
+        serif;
 }
 
 button:hover {
@@ -94,8 +96,7 @@ h2 {
 
 .intro,
 .intro-2 {
-    font-family: "dancing script",
-        cursive;
+    font-family: open sans;
     font-size: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -103,6 +104,10 @@ h2 {
     background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
     margin: 20px;
     border-radius: 30px 60px;
+}
+
+.intro-2 {
+    font-family: dancing script, cursive;
 }
 
 h4 {
@@ -151,7 +156,7 @@ h3 {
     transition: transform 0.3s ease;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: "dancing script", cursive;
+    font-family: "dancing script";
     font-size: 20px;
 }
 
