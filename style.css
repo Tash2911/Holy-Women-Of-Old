@@ -14,7 +14,7 @@
 
 nav {
     padding: 20px;
-    background-color: #ff9a3c;
+    background-color: #6643b5;
     font-family: "dancing script",
         cursive;
     font-size: 20px;
@@ -96,7 +96,7 @@ h2 {
 
 .intro,
 .intro-2 {
-    font-family: open sans;
+    font-family: PT Sans;
     font-size: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -106,9 +106,6 @@ h2 {
     border-radius: 30px 60px;
 }
 
-.intro-2 {
-    font-family: dancing script, cursive;
-}
 
 h4 {
     margin: 80px 80px 0px;
@@ -119,7 +116,7 @@ h4 {
 
 h3 {
     font-family: 'Tangerine', serif;
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 4px 4px 4px #aaa;
 
 }
@@ -134,7 +131,7 @@ h3 {
 .image {
     position: relative;
     overflow: hidden;
-    margin: 30px;
+    margin: 45px;
     box-shadow: 0 9px 15px #ff9a3c;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -148,14 +145,10 @@ h3 {
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
-    width: 100%;
-    height: 100%;
     padding: 20px;
     box-sizing: border-box;
     transform: translateY(100%);
     transition: transform 0.3s ease;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     font-family: "dancing script";
     font-size: 20px;
 }
@@ -165,18 +158,18 @@ h3 {
 }
 
 footer {
-    margin: 30px;
-    display: block;
-    justify-content: center;
+    margin: 40px;
+    text-align: center;
 }
 
 .social-links a {
-    margin: 20px 30px;
+    margin: 30px 15px;
     padding: 12px 18px;
-    font-size: 35px;
+    font-size: 25px;
     color: #ff9a3c;
     border-radius: 50%;
     background-color: #393e46;
+    width: 20px;
 }
 
 footer .social-links a:hover {
@@ -254,7 +247,7 @@ footer .social-links a:hover {
 
     .social-links a {
         font-size: 10px;
-        margin: 10px 35px;
+        margin: 10px 25px;
         padding: 7px 10px;
 
     }
