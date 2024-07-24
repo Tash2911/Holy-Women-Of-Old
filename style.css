@@ -50,8 +50,10 @@ button {
     display: block;
     justify-content: center;
     margin: 20px auto;
-    background-color: #ff9a3c;
+    background: linear-gradient(112.5deg, rgb(95, 10, 135) 11.4%, rgb(164, 80, 139) 60.2%);
+    ;
     border-radius: 20px;
+    color: #fff;
     font-size: 25px;
     padding: 8px 15px;
     font-family: 'Tangerine',
@@ -60,7 +62,8 @@ button {
 
 button:hover {
     cursor: hand;
-    color: #fff;
+    color: black;
+    background: #ff9a3c;
 }
 
 h1 {
